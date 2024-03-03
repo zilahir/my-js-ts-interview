@@ -41,3 +41,22 @@ let a = a;
 console.log(a);
 var a = 1;
 ```
+
+### Floating point arithmetic & Binary representation
+
+What it is?
+
+```typescript
+const result = 0.1 + 0.2;
+console.log(result);
+```
+
+```typescript
+const binarySum = (a, b) => {
+  const sum = a + b;
+  return sum.toString(2);
+};
+
+const binaryResult = binarySum(0.1, 0.2);
+console.log(binaryResult);
+```
