@@ -29,3 +29,15 @@ obj.arrow();
 obj.method();
 
 ```
+
+### Hoisting
+
+What will be printed to the console?
+
+```typescript
+console.log(a);
+let a = a;
+
+console.log(a);
+var a = 1;
+```
