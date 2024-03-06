@@ -1,6 +1,6 @@
 # Intro
 
-## Questions
+## Questions
 
 ### Class method vs Arrow function
 
@@ -59,4 +59,14 @@ const binarySum = (a, b) => {
 
 const binaryResult = binarySum(0.1, 0.2);
 console.log(binaryResult);
+```
+
+### TS Compilation
+
+Which one is faster, and why?
+
+```typescript
+type A = B & C;
+
+interface D extends B, C {}
 ```
