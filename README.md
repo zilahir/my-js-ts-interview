@@ -70,3 +70,23 @@ type A = B & C;
 
 interface D extends B, C {}
 ```
+
+### Binding
+
+What will be printed to the console?
+
+```typescript
+var x = 20;
+
+const myObj = {
+  x: 50,
+  foo: function () {
+    console.log(this.x);
+  },
+};
+
+myObj.foo();
+
+const foo = myObj.foo;
+foo();
+```
