@@ -90,3 +90,13 @@ myObj.foo();
 const foo = myObj.foo;
 foo();
 ```
+
+### Call Stack
+
+What will be printed to the console?
+
+```typescript
+for (var i = 0; i < 5; i++) {
+  setTimeout(() => console.log("i = ", i), i * 10);
+}
+```
