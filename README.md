@@ -101,7 +101,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-### Execution Context & Order
+### Event Loop & Queue
 
 Put the logs in order.
 
