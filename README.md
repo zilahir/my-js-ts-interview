@@ -100,3 +100,21 @@ for (var i = 0; i < 5; i++) {
   setTimeout(() => console.log("i = ", i), i * 10);
 }
 ```
+
+### Execution Context & Order
+
+Put the logs in order.
+
+```typescript
+Promise.resolve().then(() => console.log(1));
+
+queueMicrotask(() => console.log(2));
+
+setTimeout(() => consoele.log(3), 0);
+
+console.log(4);
+
+new Promise(() => console.log(5));
+
+(async () => console.log(6))();
+```
