@@ -118,3 +118,11 @@ new Promise(() => console.log(5));
 
 (async () => console.log(6))();
 ```
+
+## Not `tsjs`
+
+### Polymorphic `json`
+
+1. What is a polymorhic `json`?
+2. When does polymorhic `json` comes in handy?
+3. How to implement a Polymorphic `json` parser in `typescript`?
